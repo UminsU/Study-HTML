@@ -17,6 +17,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/UminsU/Study-HTML.git",
+    "accountId": "fb171c30-f0e9-4f46-af5d-bc1fb5812246"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -55,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738651377417</updated>
-      <workItem from="1738651378300" duration="1381000" />
+      <workItem from="1738651378300" duration="1683000" />
     </task>
     <servers />
   </component>
