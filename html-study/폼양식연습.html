@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>하이퍼링크 연습</title>
+</head>
+<body>
+<h1>하이퍼링크 테스트를 위한 본문 스크롤 생성하기</h1>
+<a href = "#bottom">최하단으로 이동</a>
+<div id = "top">
+    <h2>최상단 본문 박스 제목</h2>
+    <p>
+    </p>
+</div>
+<div id = "bottom">
+    <h2>최하단 본문 박스 제목</h2>
+    <p>
+    </p>
+</div>
+<a href = "#top">최상단으로 이동</a><br>
+<a href = "/html-study/표만들기.html">표만들기 페이지로 이동</a><br>
+<a href = "https://www.naver.com" target = "_blank">네이버로 이동(새 탭)</a><br>
+<a href = "https://www.naver.com" target = "_self">네이버로 이동(현재 창)</a><br>
+<a href = "https://www.naver.com" target = "_parent">네이버로 이동(x-frame 등 중첩시 부모창)</a><br>
+<a href = "https://www.naver.com" target = "_top">네이버로 이동(부모창 중에서 최상위)</a><br>
+<span id = "naverNewWindow">네이버로 이동(새 창)</span><br>
+<script>
+    naverNewWindow.onclick = () => {
+        window.open(
+            "https://www.naver.com",
+            // 창에 대한 요구사항을 명시적으로 입력 -> 크롭에서도 새 창에서 열림
+            "_blank", "width=800,height=600,noopener,noreferrer"
+        );
+    }
+</script>
+<br><br><br><br><br><br><br><br>
+</body>
+</html>
