@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b0d49b-e20e-4b59-ab5f-8bda5cfc3850" name="변경" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/css-study/2_선택자적용방법/2_1_기본선택자/3_속성선택자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/2_선택자적용방법/2_1_기본선택자/4_조합선택자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/2_선택자적용방법/2_1_기본선택자/5_자식선택자.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/2_선택자적용방법/2_1_기본선택자/6_후손선택자.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/2_선택자적용방법/2_1_기본선택자/7_형제선택자.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-study/폼양식연습.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-study/폼양식연습.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738651377417</updated>
       <workItem from="1738651378300" duration="5629000" />
-      <workItem from="1738717606936" duration="5713000" />
+      <workItem from="1738717606936" duration="7339000" />
     </task>
     <servers />
   </component>
