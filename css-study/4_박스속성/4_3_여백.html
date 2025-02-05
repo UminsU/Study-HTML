@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>여백 제어하기</title>
+  <style>
+    .container{
+      background: lightblue;
+      margin: 100px;
+
+      padding : 20px;
+      /*padding-left: 30px;*/
+      /*padding-right: 30px;*/
+    }
+
+    .box {
+      background: lightgreen;
+      margin-top: 20px; /* 외부 패딩과 내부 마진은 합산됨 */
+    }
+
+    .box:first-child {
+      margin-left: 30px;
+      padding-left: 30px;
+    }
+
+    .box:last-child {
+      /* <전체> */
+      padding: 50px;
+      /* <상하> <좌우> */
+      padding: 50px 10px;
+      /* <상> <좌우> <하> */
+      padding: 50px 10px 0px;
+      /* <상> <좌> <우> <하> */
+      padding: 50px 10px 0px 0px;
+    }
+  </style>
+</head>
+<body>
+<!--div.container>div.box{박스$}*3-->
+<div class="container">
+  <div class="box">박스1</div>
+  <div class="box">박스2</div>
+  <div class="box">
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur, consectetur culpa cupiditate,
+      deserunt doloribus ea facere iste laborum laudantium minima modi nam nisi nulla officia omnis repellat temporibus
+      voluptatibus!
+    </div>
+  </div>
+</div>
+</body>
+</html>
