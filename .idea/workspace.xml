@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b0d49b-e20e-4b59-ab5f-8bda5cfc3850" name="변경" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/css-study/7_배경설정/7_1_배경설정과패턴제어.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_1_relative.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_2_abolute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_3_fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_4_sticky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_5_z-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/유민수/WebstormProjects/myFirstFrontPrj/css-study/4_박스속성",
+    "last_opened_file_path": "C:/Users/유민수/WebstormProjects/myFirstFrontPrj/css-study/8_포지션",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\8_포지션" />
       <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\4_박스속성" />
       <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\2_선택자적용방법\2_1_기본선택자" />
     </key>
@@ -94,7 +97,7 @@
       <updated>1738651377417</updated>
       <workItem from="1738651378300" duration="5629000" />
       <workItem from="1738717606936" duration="16363000" />
-      <workItem from="1738802149898" duration="8193000" />
+      <workItem from="1738802149898" duration="11739000" />
     </task>
     <servers />
   </component>

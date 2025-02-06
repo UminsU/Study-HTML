@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fixed 포지션 : viewport 의 이동을 따라감</title>
+    <style>
+        header {
+            position: fixed;
+            /*fixed를 적용하면 relative 로직에서 벗어남*/
+            display: flex;
+            top: 0;
+            margin: 0 0 50px 0;
+        }
+
+        .to-top {
+            position: fixed;
+            /*fixed를 적용하면 relative 로직에서 벗어남*/
+            bottom: 100px;
+            right: 20px;
+            margin: 0 0 50px 0;
+        }
+
+        header>nav li {
+            display: inline-block;
+            margin-right: 50px;
+        }
+
+        /*header-position-holder*/
+        #header-position-holder {
+            height: 50px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+
+        .container {
+            width: 600px;
+            height: 1500px;
+            border: 5px solid deepskyblue;
+        }
+
+        section {
+            width: 100px;
+            height: 100px;
+            border: 5px solid skyblue;
+        }
+
+        section:nth-child(2) {
+            /*relative: 다른 요소들과의 상호작용 기준으로 위치가 정해짐*/
+            position: relative;
+
+            /*위치 지정 좌상단 기준*/
+            /*relative 명시되지 않아도, 자연스레 흐르던 타 요소와의 관계성 기준점 존재*/
+            /*해당 지점에서부터 위치가 정해진다*/
+            top: 150px;
+            left: 150px;
+
+            /*위치 선정 우하단 기준*/
+            /*bottom: 150px;*/
+            /*right: 150px;*/
+        }
+
+        section:nth-child(3) {
+            position: relative;
+
+            /*위치 지정 좌상단 기준*/
+            top: 150px;
+            left: 150px;
+
+            /*위치 선정 우하단 기준*/
+            /*bottom: 150px;*/
+            /*right: 150px;*/
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<header>
+    <nav>
+        <ul>
+            <li>메인</li>
+            <li>사이트맵</li>
+            <li>게시판</li>
+            <li>로그인</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
+    <div id="header-position-holder"></div>
+    <nav></nav>
+    <main>
+        <section>
+            <article>아티클1</article>
+        </section>
+        <section>
+            <article>아티클2</article>
+        </section>
+        <section>
+            <article>아티클3</article>
+        </section>
+        <section class="absolute">
+            <article>아티클4</article>
+        </section>
+    </main>
+</div>
+<div class="to-top"></div>
+<a href="#">맨 위로 이동</a>
+</body>
+</html>
