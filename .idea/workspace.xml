@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b0d49b-e20e-4b59-ab5f-8bda5cfc3850" name="변경" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/css-study/10_애니메이션/10_1_애니메이션기초.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/9_전환과변환/9_1_전환(transition)과 변환(transform).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/10_애니메이션/10_2_애니메이션방향.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/10_애니메이션/10_3_애니메이션컨트롤.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/유민수/WebstormProjects/myFirstFrontPrj/css-study/8_포지션",
+    "last_opened_file_path": "C:/Users/유민수/WebstormProjects/myFirstFrontPrj/css-study/10_애니메이션",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\10_애니메이션" />
       <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\8_포지션" />
       <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\4_박스속성" />
       <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\2_선택자적용방법\2_1_기본선택자" />
@@ -95,7 +96,7 @@
       <updated>1738651377417</updated>
       <workItem from="1738651378300" duration="5629000" />
       <workItem from="1738717606936" duration="16363000" />
-      <workItem from="1738802149898" duration="15370000" />
+      <workItem from="1738802149898" duration="17225000" />
     </task>
     <servers />
   </component>
