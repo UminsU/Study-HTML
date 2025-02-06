@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b0d49b-e20e-4b59-ab5f-8bda5cfc3850" name="변경" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/css-study/4_박스속성/4_5_디스플레이.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/4_박스속성/4_6_오버플로우.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/5_스타일리셋/5_1_스타일리셋.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/6_글꼴과문자/6_1_정렬및포매팅.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/6_글꼴과문자/6_2_절대단위와 상대단위.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-study/4_박스속성/4_3_테두리.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-study/4_박스속성/4_3_테두리.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-study/4_박스속성/4_5_디스플레이.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-study/4_박스속성/4_5_디스플레이.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,7 @@
       <updated>1738651377417</updated>
       <workItem from="1738651378300" duration="5629000" />
       <workItem from="1738717606936" duration="16363000" />
-      <workItem from="1738802149898" duration="1016000" />
+      <workItem from="1738802149898" duration="6004000" />
     </task>
     <servers />
   </component>

@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>디스플레이 속성</title>
     <style>
+        #none {
+            display: none;
+            /*visibility: hidden 보다 더 확실하게 화면상에서 없애줌*/
+
+        }
+
         span {
             /*display: inline*/
             width: 500px;
@@ -62,7 +68,7 @@
     <input value="1" type="text">
     <input value="2"type="text">
     <input value="3" type="text" id="none">
-    <input value="4" type="text" id="inline">
+    <input value="4" type="hidden" id="hidden">
     <input value="5" type="text" id="inlineblock">
     <input value="6" type="text" id="block">
 </div>
