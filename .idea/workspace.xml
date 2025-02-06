@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b0d49b-e20e-4b59-ab5f-8bda5cfc3850" name="변경" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/css-study/4_박스속성/4_6_오버플로우.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/5_스타일리셋/5_1_스타일리셋.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/6_글꼴과문자/6_1_정렬및포매팅.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/6_글꼴과문자/6_2_절대단위와 상대단위.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/7_배경설정/7_1_배경설정과패턴제어.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_1_relative.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-study/4_박스속성/4_5_디스플레이.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-study/4_박스속성/4_5_디스플레이.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/유민수/WebstormProjects/myFirstFrontPrj/css-study/4_박스속성&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/유민수/WebstormProjects/myFirstFrontPrj/css-study/4_박스속성",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\유민수\WebstormProjects\myFirstFrontPrj\css-study\4_박스속성" />
@@ -97,7 +94,7 @@
       <updated>1738651377417</updated>
       <workItem from="1738651378300" duration="5629000" />
       <workItem from="1738717606936" duration="16363000" />
-      <workItem from="1738802149898" duration="6004000" />
+      <workItem from="1738802149898" duration="8193000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>배경설정 및 패턴제어</title>
+    <style>
+        img {
+            margin: 5px;
+            width: 500px;
+            height: 300px;
+        }
+
+        .box1 {
+            margin: 5px;
+            width: 500px;
+            height: 300px;
+            background: deepskyblue;
+        }
+
+        .box2 {
+            margin: 5px;
+            width: 500px;
+            height: 300px;
+            background-size: 400px 200px;
+
+            /*background: skyblue;*/
+            /*background-image: url("/img/배경화면1.jpg");*/
+            /*background-position: center;*/
+            /*background-repeat: repeat-x;*/
+
+            /*숏핸드 구문*/
+            /*background : <pattern> <color> <url("")> <align/width height>;*/
+            background: skyblue url("/img/배경화면1.jpg") repeat-x center;
+        }
+    </style>
+</head>
+<body>
+<img src="/img/배경화면1.jpg" alt="moon night">
+<div class="box1"></div>
+<div class="box2"></div>
+</body>
+</html>
