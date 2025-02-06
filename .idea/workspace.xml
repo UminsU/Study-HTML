@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b0d49b-e20e-4b59-ab5f-8bda5cfc3850" name="변경" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_2_abolute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_3_fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_4_sticky.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-study/8_포지션/8_5_z-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/10_애니메이션/10_1_애니메이션기초.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-study/9_전환과변환/9_1_전환(transition)과 변환(transform).html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +95,7 @@
       <updated>1738651377417</updated>
       <workItem from="1738651378300" duration="5629000" />
       <workItem from="1738717606936" duration="16363000" />
-      <workItem from="1738802149898" duration="11739000" />
+      <workItem from="1738802149898" duration="15370000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>애니메이션 기초</title>
+    <style>
+        .animated {
+            width: 100px;
+            height: 100px;
+            background-color: midnightblue;
+            line-height: 100px;
+            text-align: center;
+            color: lightblue;
+
+            animation-name: metamon;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        /* 컷 전환 효과를 전 후 상태 2개에만 기반하는 것이 아니라 */
+        /* 단계별 프레임을 상세 정의할 수 있음 */
+        @keyframes metamon {
+            0% {
+                height: 100px;
+                width: 100px;
+                background-color: midnightblue;
+            }
+            20% {
+                height: 200px;
+                width: 200px;
+                background-color: yellowgreen;
+            }
+            30% {
+                height: 300px;
+                width: 300px;
+                background-color: aqua;
+            }
+            40% {
+                height: 400px;
+                width: 400px;
+                background-color: darkmagenta;
+            }
+            50% {
+                height: 500px;
+                width: 500px;
+                background-color: #1d1da8;
+            }
+            60% {
+                height: 600px;
+                width: 600px;
+                background-color: rgba(123, 126, 200, 0.25);
+            }
+            70% {
+                height: 700px;
+                width: 700px;
+                background-color: #e1a3ef;
+            }
+            80% {
+                height: 800px;
+                width: 800px;
+                background-color: #c9d59c;
+            }
+            90% {
+                height: 900px;
+                width: 900px;
+                background-color: #f874a7;
+            }
+            100% {
+                height: 1000px;
+                width: 1000px;
+                background-color: #7ed8ff;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class = "animated">
+    ANIMATION
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Transition : 전환</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: cornflowerblue;
+            margin: 10px;
+            text-align: center;
+            line-height: 200px; /* 한줄이 200px */
+            /*transition: background-color 2s;*/
+            /*transition: border-radius 3s;*/
+
+            /*transition-property: border-radius, background-color;
+            transition-duration: 2s;*/
+
+            /* 전환동작 duration timing-function delay */
+            /*transition: all 3s steps(10) 1s;*/
+            /*transition: all 1s ease-in-out 0s;*/
+
+            transition: all 1s;
+        }
+
+        .transition-box {
+            width: 200px;
+            height: 200px;
+            background-color: cornflowerblue;
+            margin: 10px;
+            text-align: center;
+            line-height: 200px;
+
+            transition-duration: 2s;
+            /* 부드러운 동작을 위해 꼭 필요 */
+        }
+
+        .transition-box:hover {
+            background-color: lightblue;
+            width: 1000px;
+        }
+
+        .transition-box:active {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: lightgreen;
+        }
+
+        /* 상태 변화가 동작의 트리거 조건이 됨 */
+        /*.transition-box.box:hover {
+            !* 전환될 상태 정의 X *!
+            !* 동작할 내용 *!
+        }*/
+
+        .transform-box.box1:hover {
+            /*transform: rotate3d(x,y,z,deg);*/
+            transform: rotate3d(10,10,10,180deg);
+        }
+
+        .transform-box.box2:hover {
+            transform: translate(200px,-200px);
+        }
+
+        .transform-box.box3:hover {
+            transform: scale(300%);
+        }
+
+        .transform-box.box4:hover {
+            transform: skew(0deg, 180deg);
+            /* 상하 좌우 */
+        }
+
+        .transform-box.box5:active {
+            transform: rotate(720deg) translate(400px,-500px) skew(10deg, 10deg) scale(400%);
+            background-color: lightgreen;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--div.box${$}*5-->
+<div class = "transition-box"></div>
+<div class = "transform-box box1">1</div>
+<div class = "transform-box box2">2</div>
+<div class = "transform-box box3">3</div>
+<div class = "transform-box box4">4</div>
+<div class = "transform-box box5">5</div>
+</body>
+</html>
